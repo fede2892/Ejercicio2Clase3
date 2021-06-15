@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <link rel="stylesheet" href="css/estilo.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Calcular!</title>
+    </head>
+    <body>
+        <div id="content">
+            <fieldset>
+                <legend>Ingrese dos números:</legend>
+                <label for="">Número 1:</label>
+                <input type="text" id="txtN1"></form><br>
+                <label for="">Número 2:</label>
+                <input type="text" id="txtN2"></form><br>
+                <p></p>
+                <input type="button" onclick="suma()" value="Sumar!"></input>
+                <input type="button" onclick="resta()" value="Restar!"></input>
+                <input type="button" onclick="multi()" value="Multiplicar!"></input>
+                <input type="button" onclick="divi()" value="Dividir!"></input>
+                <input type="button" onclick="cuad()" value="Suma de cuadrados!"></input><br>
+                <p id="total"></p>
+            </fieldset>
+        </div>
+        <script src="js/engine.js"></script>
+    </body>
+</html>
